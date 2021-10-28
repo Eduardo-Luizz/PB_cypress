@@ -9,9 +9,9 @@ describe("Testes na aba inventory", () => {
         SauceLogin.logar()
     })
 
-    /*it("Acessar página about pelo menu", () => {
+    it("Acessar página about pelo menu", () => {
         SauceInventory.acessarPaginaAbout()
-    })*/
+    })
 
     it("Adicionar item ao carrinho e validar o botão", () => {
         SauceInventory.addItensCarrinho()
@@ -21,8 +21,8 @@ describe("Testes na aba inventory", () => {
         SauceInventory.validateItemCart()
     })
 
-    it.only("Realizar Checkout", () => {
-        SauceInventory.realizarCheckout()
+    it("Remover item do carrinho", () => {
+        SauceInventory.removeItensCarrinho()
     })
 
 })

@@ -87,5 +87,16 @@ export default class Base {
   static validarUrl(url){
     cy.url().should('include', url)
   }
+
+  static verifyIfElementNotExist(element){
+    this.getElement(element).should('not.exist')
+  }
+
+  static verifyIfTextIsVisible(text){
+    cy.contains(text, {matchCase: false}).should("be.visible")
+  }
   
+  static verifyIfTextNotExist(text){
+    cy.contains(text, {matchCase: false}).should("not.exist")
+  }
 }
