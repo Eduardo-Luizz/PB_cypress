@@ -6,7 +6,6 @@ const BTN_ADDCART = "#add-to-cart-sauce-labs-backpack"
 
 const BTN_CART = ".shopping_cart_link"
 
-
 const BTN_CHECKOUT = "#checkout"
 
 const INP_FIRSTNAME = "#first-name"

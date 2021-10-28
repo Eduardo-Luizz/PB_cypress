@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 import SauceLogin from '../pages/sauce_login.page'
-import SauceInventory from "../pages/inventory.page";
+//import SauceInventory from "../pages/inventory.page";
 import SauceCheckout from '../pages/checkout.page';
 
 describe("Teste na aba Checkout", () => {
